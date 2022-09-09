@@ -13,13 +13,9 @@ func main() {
 	args, err := checklaunch()
 	checkErr(err, "launch")
 
-	fmt.Println(args)
-
 	file, err := os.OpenFile(args[1], os.O_RDWR, 0644)
 
 	checkErr(err, "open file")
-
-	fmt.Println(file.Name())
 
 	var site uploader.Site
 	switch args[2] {
