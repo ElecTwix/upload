@@ -5,7 +5,7 @@ go 1.19
 require (
 	atomicgo.dev/cursor v0.1.1 // indirect
 	atomicgo.dev/keyboard v0.2.8 // indirect
-	github.com/ElecTwix/uploader v0.0.0-20220829123549-dce8397d393a // indirect
+	github.com/ElecTwix/uploader v0.0.0-20220912174055-10cb2346afcd // indirect
 	github.com/containerd/console v1.0.3 // indirect
 	github.com/gookit/color v1.5.0 // indirect
 	github.com/lithammer/fuzzysearch v1.1.5 // indirect
