@@ -30,7 +30,7 @@ func main() {
 		log.Fatalf(pterm.NewStyle(pterm.FgWhite, pterm.BgRed, pterm.Bold).Sprintf("'%s' is not valid site", args[2]))
 	}
 
-	uploadspinner, _ := pterm.DefaultSpinner.Start("Doing something important... (will succeed)")
+	uploadspinner, _ := pterm.DefaultSpinner.Start("Uploading ...")
 
 	respond, err := uploader.Upload(site, file)
 
