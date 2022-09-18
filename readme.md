@@ -1,6 +1,8 @@
 
 # Easy Uploader
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/ElecTwix/upload)](https://goreportcard.com/report/github.com/ElecTwix/upload)
+
 ## install
 
 ```
